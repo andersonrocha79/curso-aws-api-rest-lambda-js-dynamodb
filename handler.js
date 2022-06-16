@@ -19,7 +19,6 @@ const dynamoDb = isOffline()
   : new AWS.DynamoDB.DocumentClient();
 
 const params = {
-  // TableName: "alura-pacientes" 
   TableName: process.env.PACIENTES_TABLE,
 };
 

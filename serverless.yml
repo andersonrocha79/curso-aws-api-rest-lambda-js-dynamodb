@@ -66,7 +66,7 @@ provider:
   region: us-east-1
   environment:
     PACIENTES_TABLE: 'alura-pacientes-${opt:stage, self:provider.stage}' # se não for informado o parâmetro 'stage' ao chamar 'deploy' será considerado o que foi definido como padrão neste arquivo (stage: dev)
-    IS_OFFLINE: true
+    # IS_OFFLINE: false
 
 # you can add statements to the Lambda function's IAM Role here
 #  iam:

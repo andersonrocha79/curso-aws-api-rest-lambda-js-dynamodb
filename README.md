@@ -8,6 +8,11 @@ projeto do curso de desenvolvimento de api rest utilizando lambda e dynamodb da 
 *  executar aws configure e informar as credenciais do usuário
 *  instalar o npm
 *  instalar o serverless
+*  executar: npm install
+*  executar: npm install aws-sdk
+*  executar: npm i serverless-dynamodb-local --save-dev
+*  executar: serverless dynamodb install
+*  executar: serverless offline start
 
 ### para logar na conta teste 
 *  aws configure 
